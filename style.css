@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #ffffff;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -90,8 +94,41 @@ main {
 }
 .rectangle {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 96px;
   background-color: black;
+}
+
+.interior-two-text {
+  color: white;
+}
+.interior-two-text h2 {
+  width: 500px;
+  font-size: 30px;
+}
+.interior-two-text p {
+  width: 500px;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.interior-two-text ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.testimonial {
+  display: flex;
+  justify-content: space-around;
+  padding: 96px;
+}
+
+.customer-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  height: 200px;
+  background-color: #f3f3f3;
 }/*# sourceMappingURL=style.css.map */
