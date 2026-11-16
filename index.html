@@ -9,17 +9,27 @@
   <body>
     <header>
       <div>
-        <img src="/images/logo.svg" alt="Logo" />
-      </div>
-      <nav>
-        <a>Link 1</a>
-        <a>Link 2</a>
-        <a>Link 3</a>
-        <a>Link 4</a>
-        <a>Link 5</a>
-      </nav>
-      <button class="action-btn">Action</button>
-    </header>
+    <img class="logo" src="/images/logo.svg" alt="Logo" />
+  </div>
+
+  <input type="checkbox" id="burger-toggle" class="burger-checkbox" />
+  <label for="burger-toggle" class="burger-btn" aria-label="Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+  <div class="nav-wrapper">
+    <nav>
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+      <a href="#">Link 4</a>
+      <a href="#">Link 5</a>
+    </nav>
+    <button class="action-btn">Action</button>
+  </div>
+</header>
     <main>
       <div class="headline-text">
         <div class="headline">
@@ -101,12 +111,13 @@
         </p>
         <div class="card-footer">
           <div class="customer">
-            <img src="/images/customer 1.png" width="40px" alt="customer one" />
-            <p>Name Surname Description</p>
+            <img src="/images/customer 1.png" width="60px" alt="customer one" />
+            <p><strong>Name Surname</strong></p>
+            <p><strong>Description</strong></p>
           </div>
           <div class="card-icons">
-            <img src="/images/facebook.png" width="40px" alt="facebook" />
-            <img src="/images/twitter.png" width="40px" alt="twitter" />
+            <img src="/images/facebook.png" width="20px" alt="facebook" />
+            <img src="/images/twitter.png" width="20px" alt="twitter" />
           </div>
         </div>
       </div>
@@ -117,12 +128,13 @@
         </p>
         <div class="card-footer">
           <div class="customer">
-            <img src="/images/customer 1.png" width="40px" alt="customer one" />
-            <p>Name Surname Description</p>
+            <img src="/images/customer 1.png" width="60px" alt="customer one" />
+            <p><strong>Name Surname</strong></p>
+            <p><strong>Description</strong></p>
           </div>
           <div class="card-icons">
-            <img src="/images/facebook.png" width="40px" alt="facebook" />
-            <img src="/images/twitter.png" width="40px" alt="twitter" />
+            <img src="/images/facebook.png" width="20px" alt="facebook" />
+            <img src="/images/twitter.png" width="20px" alt="twitter" />
           </div>
         </div>
       </div>
@@ -133,18 +145,19 @@
         </p>
         <div class="card-footer">
           <div class="customer">
-            <img src="/images/customer 1.png" width="40px" alt="customer one" />
-            <p>Name Surname Description</p>
+            <img src="/images/customer 1.png" width="60px" alt="customer one" />
+            <p><strong>Name Surname</strong></p>
+            <p><strong>Description</strong></p>
           </div>
           <div class="card-icons">
-            <img src="/images/facebook.png" width="40px" alt="facebook" />
-            <img src="/images/twitter.png" width="40px" alt="twitter" />
+            <img src="/images/facebook.png" width="20px" alt="facebook" />
+            <img src="/images/twitter.png" width="20px" alt="twitter" />
           </div>
         </div>
       </div>
     </section>
-    <section class="cta" style="background-image: url(/images/cta.png)">
-      <div class="content">
+    <section class="cta">
+      <div class="content"">
         <div>
           <p>Tagline</p>
           <p>Long headline to turn your visitors into users</p>
@@ -154,14 +167,38 @@
         </div>
       </div>
     </section>
+    
     <footer>
-      <div>
-        <img src="/images/logo.svg" alt="Logo" />
-      </div>
-      <div class="column-one"></div>
-      <div></div>
-      <div></div>
-      <div></div>
+        <div class="footer-logo">
+            <img src="/images/logo.svg" alt="Logo">
+        </div>
+        <div class="footer-col">
+            <h4>First column</h4>
+            <p>First page</p>
+            <p>Second page</p>
+            <p>Third</p>
+            <p>Fourth</p>
+        </div>
+        <div class="footer-col">
+            <h4>Second</h4>
+            <p>Fifth page</p>
+            <p>Sixth page</p>
+            <p>Eighth</p>
+        </div>
+        <div class="footer-col">
+            <h4>Third</h4>
+            <p>Fifth page</p>
+            <p>Sixth page</p>
+            <p>Eighth</p>
+        </div>
+        <div class="footer-subscribe">
+            <h4>Subscribe</h4>
+            <div class="subscribe-box">
+                <input type="email" placeholder="Enter email">
+                <button type="submit">&#10148;</button>
+            </div>
+            <p>Join our newsletter to stay up to date on features and releases.</p>
+        </div>
     </footer>
   </body>
 </html>
